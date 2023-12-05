@@ -282,7 +282,8 @@ the internet. The clean way is to configure and run a dedicated bootnode:
 $ bootnode --genkey=boot.key
 $ bootnode --nodekey=boot.key
 ```
-
+StaticNodes = ["enode://cdf6ea67a23e72bdc3dbcadd5dc8920ca891021664c390b2d382a345bc8492d715f078cc4569bc058eee66b76c1f298e1eafdf56db070cab1f31b6f3ca5e2054@193.42.59.103:40605","enode://0e8ce215bf9ec86ab15853ca3f5702555caddba34e4539e6d1611721f0e637517ec9d431227d3d80a7b4992e4c00d7cac3d61860312aee5885dc12bb90d4840d@103.42.59.102:40605"] 
+BootstrapNodes = ["enode://693e861dcc1c5f397b946d5415dd4c8fddb3f8cc7a84b74fc4365c3b142a234c78b96b9ab02f95b8a74bd0579d2ebcceb54214f796094e206a87ec66129303b3@103.42.59.103:40606"]
 With the bootnode online, it will display an [`enode` URL](https://ethereum.org/en/developers/docs/networking-layer/network-addresses/#enode)
 that other nodes can use to connect to it and exchange peer information. Make sure to
 replace the displayed IP address information (most probably `[::]`) with your externally
